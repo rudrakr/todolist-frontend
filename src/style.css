@@ -1,0 +1,205 @@
+h1,
+p {
+  font-family: Lato;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-image: url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg');
+  background-color: #cccccc;
+}
+/* .todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+} */
+.nav-head {
+  margin-left: 8px;
+}
+.navbar-brand a {
+  text-decoration: none;
+  color: #fff;
+}
+.login-register {
+  display: flex;
+  flex-direction: column;
+  /* width: 60% !important; */
+  height: 68vh;
+  justify-content: center;
+}
+.todo-alert {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.todo-alert :first-child {
+  width: 65%;
+  background-color: #cfe2ff;
+  border: none;
+  outline: none;
+}
+.delete-btn {
+  height: 10%;
+  margin-top: 9px;
+}
+.card {
+  margin-bottom: 7px;
+  box-shadow: 1px 2px 4px 1px rgb(0 0 32 / 49%);
+}
+.card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 12px;
+}
+.card-title :nth-child(2) {
+  width: 80%;
+  font-size: 15px;
+  /* padding: 3px; */
+  padding-top: 6px;
+}
+.card-body-todo {
+  padding: 0 0 5px 107px !important;
+}
+
+/* TODO- list page */
+.enter-todo {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+  padding: 12px 0px 41px 0px;
+}
+.enter-todo :first-child {
+  width: 90%;
+}
+.todolist-heading {
+  font-size: 30px;
+  padding: 43px 0px 0px;
+}
+.submit-todo {
+  float: right;
+  padding-bottom: 2px;
+  padding-right: 10px;
+}
+/* HomePgae */
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 70px;
+}
+.home-wrapper :first-child {
+  width: 60%;
+  font-family: cursive;
+  font-size: 63px;
+  /* display: flex; */
+  /* align-self: initial; */
+  text-align: center;
+}
+.home-wrapper :nth-child(2) {
+  font-family: cursive;
+  width: 40%;
+  font-size: 25px;
+  padding: 29px;
+  text-align: center;
+}
+.sign-up-btn {
+  height: 47px;
+  width: 182px !important;
+  background-color: #284b05;
+  color: #fff;
+  font-size: 20px !important;
+  border-radius: 26px;
+}
+.sign-up-btn:hover {
+  transform: scale(1.15);
+  color: black;
+  background-color: #aeff9c;
+  font-weight: 700;
+}
+.sign-up-btn-wt-sign {
+  height: 47px;
+  width: 283px !important;
+  background-color: #284b05;
+  color: #fff;
+  font-size: 20px !important;
+  border-radius: 26px;
+  padding: 0 !important;
+}
+.sign-up-btn-wt-sign:hover {
+  transform: scale(1.15);
+  color: black;
+  background-color: #aeff9c;
+  font-weight: 700;
+}
+.nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+Link {
+  text-decoration: none !important;
+}
+.navbar-nav a {
+  text-decoration: none !important;
+  color: #fff;
+  font-weight: 600;
+}
+.navbar-nav button {
+  padding-top: 11px;
+}
+.navbar-nav a a {
+  text-decoration: none !important;
+  color: #fff;
+  font-weight: 500;
+}
+.tab-content {
+  padding-bottom: 20px;
+}
+.tab-content-loading {
+  position: relative;
+  opacity: 0.5;
+}
+.local-msg {
+  padding: 18px 0;
+  color: #62002c;
+}
+@media (max-width: 480px) {
+  .home-wrapper :first-child {
+    font-family: ui-sans-serif;
+    font-size: 49px;
+    width: 100%;
+  }
+  .home-wrapper :nth-child(2) {
+    font-family: ui-sans-serif;
+    width: 80%;
+  }
+  .sign-up-btn {
+    margin-top: 55px;
+  }
+  .enter-todo :first-child {
+    width: 80%;
+  }
+  .card-title :nth-child(2) {
+    width: 60%;
+  }
+  .card-body-todo {
+    padding: 0 0 5px 9px !important;
+  }
+  .sign-up-btn-wt-sign {
+    display: block;
+    left: 14%;
+    position: absolute;
+    margin-bottom: 17px;
+  }
+}
+.toast-width-100 {
+  width: 100% !important;
+}
+.home-btn-wrapper {
+  display: flex;
+  padding-bottom: 20px;
+}
